@@ -1,7 +1,20 @@
-/* App.css */
 .item-list-container {
-    padding: 20px;
-    font-family: BASQUIAT, sans-serif;
-    text-align: center;
-  }
-  
+  padding: 20px;
+  font-family: BASQUIAT, sans-serif;
+  text-align: center;
+}
+
+.product-item {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.product-image {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
