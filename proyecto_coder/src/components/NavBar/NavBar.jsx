@@ -14,15 +14,6 @@ export default function NavBar() {
       <div className="navbar-right">
         <ul className="navbar-links">
           <li className="navbar-item">
-            <Link to="/about">About us</Link>
-          </li>
-          <li className="navbar-item">
-            <Link to="/gallery">Gallery</Link>
-          </li>
-          <li className="navbar-item">
-            <Link to="/donations">Donations</Link>
-          </li>
-          <li className="navbar-item">
             <Link to="/category/1981" className="category-navbar">1981</Link>
           </li>
           <li className="navbar-item">

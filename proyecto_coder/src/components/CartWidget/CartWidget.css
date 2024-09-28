@@ -1,19 +1,17 @@
- /* Estilo para el CartWidget */
- .shopping-cart {
-    margin-left: 0; /* No dejar margen a la izquierda */
-    margin-right: 10px;
-    position: relative;
-  }
+.shopping-cart {
+  margin-left: 0; /* No dejar margen a la izquierda */
+  margin-right: 10px;
+  position: relative;
+}
 
-  .badge {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: rgb(28, 124, 233);
-    color: antiquewhite;
-    font-size: 14px;
-    padding: 2px 6px;
-    border-radius: 50%;
-    transform: translate(50%,-50%);
-  }
-
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(28, 124, 233);
+  color: antiquewhite;
+  font-size: 14px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  transform: translate(50%,-50%);
+}

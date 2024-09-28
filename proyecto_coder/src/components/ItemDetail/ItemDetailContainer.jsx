@@ -4,17 +4,26 @@ import { artworks } from '../../mockData';
 import ItemDetail from './ItemDetail';
 
 export default function ItemDetailContainer() {
-  const { id } = useParams();
+  const { idProduct } = useParams();
   const [artwork, setArtwork] = useState(null);
 
   useEffect(() => {
-    const item = artworks.find((art) => art.id === id);
+    console.log(idProduct);
+    const item = artworks.find(art => art.id === idProduct);
+    console.log(item);
     setArtwork(item);
-  }, [id]);
+  }, [idProduct]);
 
   return (
     <div>
-      {artwork ? <ItemDetail {...artwork} /> : <p>Loading...</p>}
+      {artwork ? <ItemDetail
+        title={artwork.title}
+        year={artwork.year}
+        description={artwork.description}
+        interpretation={artwork.interpretation}
+        price={artwork.price}
+        img={artwork.image}
+      /> : <p>Loading...</p>}
     </div>
   );
 }

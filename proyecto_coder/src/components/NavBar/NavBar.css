@@ -1,60 +1,55 @@
-/* Eliminar margen y relleno del body */
 body, html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Estilo para el contenedor principal del navbar */
-  .navbar {
-    display: flex; /* Para alinear los elementos en una sola fila */
-    justify-content: space-between; /* Distribuir el logotipo a la izquierda y los enlaces con el CartWidget a la derecha */
-    align-items: center; /* Alinear verticalmente los elementos */
-    background-color: #FFCA2F; /* Color de fondo */
-    padding: 10px 20px; /* Espacio alrededor del contenido */
-    font-family: "BASQUIAT", sans-serif; /* Fuente personalizada */
-    width: 100%; /* Ocupar el 100% del ancho de la ventana sin la barra de scroll */
-    box-sizing: border-box; /* Para incluir padding y bordes dentro del ancho total */
-  }
-  
-  /* Estilo para el logotipo */
-  .logotipo {
-    height: 50px; /* Ajustar el tamaño de la imagen */
-    width: auto; /* Mantener la proporción del logotipo */
-  }
-  
-  /* Agrupar los enlaces y el CartWidget */
-  .navbar-right {
-    display: flex; /* Agrupar los links y el CartWidget en una fila */
-    align-items: center; /* Centrar verticalmente los items y el CartWidget */
-  }
-  
-  /* Estilos para los enlaces */
-  .navbar-links {
-    display: flex; /* Alinear los links en fila */
-    list-style: none; /* Quitar viñetas de la lista */
-    margin: 0; /* Quitar márgenes */
-    padding: 0; /* Quitar rellenos */
-    margin-right: 20px; /* Separar los links del CartWidget */
-  }
-  
-  .navbar-item {
-    margin: 0 10px; /* Espacio entre cada item */
-  }
-  
-  .navbar-item:last-child {
-    margin-right: 30px; /* Añadir un margen derecho al último ítem */
-  }
-  
-  .navbar-item a {
-    text-decoration: none; /* Quitar subrayado de los links */
-    color: black; /* Color de texto negro */
-    font-weight: bold; /* Hacer los links más visibles */
-    font-size: 18px; /* Aumentar el tamaño del texto */
-  }
-  
-  .navbar-item a:visited {
-    color: black; /* Mantener el color negro incluso después de visitar el link */
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex; /* Para alinear los elementos en una sola fila */
+  justify-content: space-between; /* Distribuir el logotipo a la izquierda y los enlaces con el CartWidget a la derecha */
+  align-items: center; /* Alinear verticalmente los elementos */
+  background-color: #FFCA2F; /* Color de fondo */
+  padding: 10px 20px; /* Espacio alrededor del contenido */
+  font-family: "BASQUIAT", sans-serif; /* Fuente personalizada */
+  width: 100%; /* Ocupar el 100% del ancho de la ventana sin la barra de scroll */
+  box-sizing: border-box; /* Para incluir padding y bordes dentro del ancho total */
+}
+
+.logotipo {
+  height: 50px; /* Ajustar el tamaño de la imagen */
+  width: auto; /* Mantener la proporción del logotipo */
+}
+
+.navbar-right {
+  display: flex; /* Agrupar los links y el CartWidget en una fila */
+  align-items: center; /* Centrar verticalmente los items y el CartWidget */
+}
+
+.navbar-links {
+  display: flex; /* Alinear los links en fila */
+  list-style: none; /* Quitar viñetas de la lista */
+  margin: 0; /* Quitar márgenes */
+  padding: 0; /* Quitar rellenos */
+  margin-right: 20px; /* Separar los links del CartWidget */
+}
+
+.navbar-item {
+  margin: 0 10px; /* Espacio entre cada item */
+}
+
+.navbar-item:last-child {
+  margin-right: 30px; /* Añadir un margen derecho al último ítem */
+}
+
+.navbar-item a {
+  text-decoration: none; /* Quitar subrayado de los links */
+  color: black; /* Color de texto negro */
+  font-weight: bold; /* Hacer los links más visibles */
+  font-size: 18px; /* Aumentar el tamaño del texto */
+}
+
+.navbar-item a:visited {
+  color: black; /* Mantener el color negro */
+}
   
   

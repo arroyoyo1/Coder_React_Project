@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
@@ -15,11 +14,11 @@ export default function App() {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path="/" element={<ItemListContainer greeting={"Welcome to the Basquiat Foundation"}/>} />
+        <Route path="/" element={<ItemListContainer greeting={"Welcome to the Basquiat Foundation"} />} />
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/donations" element={<Donations />} />
-        <Route path="/category/:idCategory" element={<ItemListContainer greeting={"Exhibición al público"}/>} />
+        <Route path="/category/:idCategory" element={<ItemListContainer greeting={"Exhibición al público"} />} />
         <Route path="/detail/:idProduct" element={<ItemDetailContainer />} />
       </Routes>
     </BrowserRouter>
