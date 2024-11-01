@@ -8,21 +8,24 @@ import './App.css'; // Archivo principal para los estilos globales
 import About from './pages/About';
 import Gallery from './pages/Gallery';
 import Donations from './pages/Donations';
+import { Checkout } from './components/Checkout/Checkout';
+import { CartProvider } from './context/cart';
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<ItemListContainer greeting={"Welcome to the Basquiat Foundation"} />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/donations" element={<Donations />} />
-        <Route path="/category/:idCategory" element={<ItemListContainer greeting={"Exhibición al público"} />} />
-        <Route path="/detail/:idProduct" element={<ItemDetailContainer />} />
-      </Routes>
-    </BrowserRouter>
+    <CartProvider>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<ItemListContainer greeting={"Welcome to the Basquiat Foundation"} />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/donations" element={<Donations />} />
+          <Route path="/category/:idCategory" element={<ItemListContainer greeting={"Exhibición al público"} />} />
+          <Route path="/detail/:idProduct" element={<ItemDetailContainer />} />
+          <Route path='/chekout' element={<Checkout />} />
+        </Routes>
+      </BrowserRouter>
+    </CartProvider>
   );
 }
-
-

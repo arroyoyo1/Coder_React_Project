@@ -7,7 +7,8 @@ export const artworks = [
     interpretation: "Representa la dualidad de la vida y la muerte.",
     price: "$10,000,000",
     category: "1981",
-    image: "/skull.jpg", // Ruta de la imagen
+    image: "/skull.jpg",
+    stock: 10,
   },
   {
     id: "2",
@@ -17,7 +18,8 @@ export const artworks = [
     interpretation: "Explora la relación entre la inocencia y la violencia urbana.",
     price: "$12,000,000",
     category: "1982",
-    image: "/boy_and_dog.jpg", // Ruta de la imagen
+    image: "/boy_and_dog.jpg",
+    stock: 5,
   },
   {
     id: "3",
@@ -27,7 +29,8 @@ export const artworks = [
     interpretation: "La flexibilidad del ser humano frente a las adversidades.",
     price: "$7,000,000",
     category: "1984",
-    image: "/flexible.jpg", // Ruta de la imagen
+    image: "/flexible.jpg", 
+    stock: 8,
   },
   {
     id: "4",
@@ -37,7 +40,8 @@ export const artworks = [
     interpretation: "Captura la energía y complejidad de la figura humana.",
     price: "$9,000,000",
     category: "1981",
-    image: "/head.jpg", // Agrega la ruta para esta nueva obra
+    image: "/head.jpg",
+    stock: 3,
   },
   {
     id: "5",
@@ -47,7 +51,8 @@ export const artworks = [
     interpretation: "Explora la relación entre la música y el arte.",
     price: "$8,000,000",
     category: "1982",
-    image: "/trumpet.jpg", // Agrega la ruta para esta nueva obra
+    image: "/trumpet.jpg", 
+    stock: 5,
   },
   {
     id: "6",
@@ -57,7 +62,8 @@ export const artworks = [
     interpretation: "Refleja la energía de la escena artística de Nueva York.",
     price: "$6,000,000",
     category: "1984",
-    image: "/grillo.jpg", // Agrega la ruta para esta nueva obra
+    image: "/grillo.jpg", 
+    stock: 20,
   },
 ];
 
