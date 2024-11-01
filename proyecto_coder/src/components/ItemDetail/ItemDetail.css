@@ -1,5 +1,43 @@
-.img-detail{
+.img-detail {
     width: 200px;
     height: auto;
     overflow: hidden;
+}
+
+.btn-add-cart {
+    width: 150px;
+    height: 30px;
+    background-color: #FFCA2F;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.btn-add-cart:hover {
+    background-color: #d1a215;
+    transition: all 300ms;
+}
+
+.item-detail-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.btn-increment,
+.btn-decrement {
+    width: 30px;
+    height: 30px;
+    background-color: #FFCA2F;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.quantity{
+    padding: 7px;
 }
